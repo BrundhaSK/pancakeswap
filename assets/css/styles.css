@@ -677,7 +677,6 @@ svg {
 .start .container-fluid {
   margin: 0px;
   width: 100%;
-  max-width: 968px;
 }
 .hynWzD {
   height: 350%;
@@ -808,7 +807,7 @@ svg {
     rgb(255, 205, 81) 51.17%,
     rgb(255, 231, 106) 100%
   );
-  max-width: 275px;
+  max-width: 400px;
   margin-bottom: 32px;
   border-radius: 24px;
   color: rgb(40, 13, 95);
@@ -853,7 +852,7 @@ svg {
 .content .card:last-child {
   border-radius: 24px;
   background: linear-gradient(rgb(118, 69, 217) 0%, rgb(81, 33, 177) 100%);
-  max-width: 275px;
+  max-width: 400px;
   margin-bottom: 32px;
   border-radius: 24px;
   color: rgb(40, 13, 95);
@@ -1243,6 +1242,22 @@ svg {
   .csub-heading,
   .ssub-heading {
     font-size: 20px;
+  }
+  .services .container-fluid,
+  .trade .container-fluid,
+  .earn .container-fluid,
+  .cake .container-fluid,
+  .start .container-fluid {
+    padding-left: 220px;
+    padding-right: 220px;
+  }
+  .win .container-fluid {
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+  .earn-image img {
+    max-height: 80%;
+    width: 80%;
   }
 }
 
